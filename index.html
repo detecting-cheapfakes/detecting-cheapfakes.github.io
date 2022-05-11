@@ -185,7 +185,29 @@
         <h2 class="title is-3">Challenge Tasks</h2>
         <div class="content has-text-justified">
           <p>
-            An image serves as evidence of the event described by a news caption. If two captions associated with an image are valid, then they should describe the same event. If they align with the same object(s) in the image, then they should be broadly conveying the same information. Based on these patterns, we define out-of-context (OOC) use of an image as presenting the image as an evidence of untrue and/or unrelated event(s)
+            An image serves as evidence of the event described by a news caption. 
+            If two captions associated with an image are valid, then they should describe the same event. 
+            If they align with the same object(s) in the image, then they should be broadly conveying the same information. 
+            Based on these patterns, we define out-of-context (OOC) use of an image as presenting the image as an evidence of 
+            untrue and/or unrelated event(s)
+          </p>
+        </div>
+        <h3 class="title is-4">Task 1</h3>
+        <div class="content has-text-justified">
+          <p>
+           Every image in the dataset is accompanied by two related captions. If the two captions refer to same object(s) in the image, 
+           but are semantically different, i.e., associate the same subject to different events, this indicates out-of-context (OOC) use of the image. 
+           However, if the captions correspond to the same event, irrespective of the object(s) the captions describe, 
+           this is defined as not-out-of-context (NOOC) use of the image.
+          </p>
+          <p>
+            In this task, the participants are asked to come up with methods to detect conflicting image-caption triplets, 
+            which indicates miscontextualization. More specifically, given (Image,Caption1,Caption2) triplets as input, 
+            the proposed model should predict corresponding class labels (OOC or NOOC). 
+            The end goal for this task is not to identify which of the two captions is true/false, 
+            but rather to detect the existence of miscontextualization. 
+            This kind of a setup is considered particularly useful for assisting fact checkers, 
+            as highlighting conflicting image-caption triplets allows them to narrow down their search space.
           </p>
         </div>
       </div>
