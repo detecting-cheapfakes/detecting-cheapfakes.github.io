@@ -99,6 +99,16 @@
 
           <div class="column has-text-centered">
             <div class="publication-links">
+              <!-- Paper Link -->
+              <span class="link-block">
+                <a target=”_blank” href="http://arxiv.org/abs/2304.01328"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-file"></i>
+                  </span>
+                  <span>Paper</span>
+                  </a>
+              </span>
               <!-- Dataset Link -->
               <span class="link-block">
                 <a target=”_blank” href="https://forms.gle/jj7jLhF4b43KKxLZ7"
@@ -233,7 +243,7 @@
     <!-- Challenge Tasks -->
     <div class="columns is-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Submission Guidelines</h2>
+        <h2 class="title is-3">Paper Submission Guidelines</h2>
         <div class="content has-text-justified">
           <ul>
             <li><strong>Paper Length:</strong> Papers must be no longer than 6 pages, including all text, figures, and references.</li>
@@ -260,6 +270,27 @@
             as highlighting conflicting image-caption triplets allows them to narrow down their search space.
           </p>
         </div> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Challenge Tasks -->
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Code Submission Guidelines</h2>
+        <div class="content has-text-justified">     
+          <ul>
+            <li> Participants can submit their solution as a notebook, e.g., <strong>Google Colab</strong> or <strong>Jupyter Notebook</strong> or <strong>Python Executable (.py file)</strong>. </li>
+            <li> Please make sure that the notebook, or the <strong>.py</strong> file is directly executable by the challenge organizers without significant modifications. </li>
+            <li> Data injection should be possible by changing a single line to update the parameter <strong>INPUT_FOLDER</strong>. This value should be assumed to be the path to the folder containing the hidden test split file <strong>test.json</strong>.</li>
+            <li> Participants can upload their project (codes, models) to Google Drive, Microsoft Drive or any other similar online storage. The link must be shared with challenge organizers and also mentioned in the papers.</li>
+            <li> If the participants would like to share their solutions as Docker containers, please follow instructions <a target="_blank" href="https://github.com/detecting-cheapfakes/detecting-cheapfakes-code">here</a>.</li>
+            <li> Participants can email the links to their Colabs, code repositories, or projects on Google Drive etc to <strong>sohail.khan@uib.no</strong>. Also, please make sure that the solution must accompanied by a report (word document, pdf) explaining the proposed solution, the achieved results, and other relevant details which can be helpful for the organizers to run and evaluate solutions.</li>
+          </ul>
+          </div>
       </div>
     </div>
   </div>
@@ -322,6 +353,76 @@
               </tr>
             </tbody>
             </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <style type="text/css">
+    .tg  {border-collapse:collapse;border-spacing:0;}
+    .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+      overflow:hidden;padding:10px 5px;word-break:normal;}
+    .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+      font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+    .tg .tg-baqh{text-align:center;vertical-align:top}
+    .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+    .tg .tg-llyw{background-color:#c0c0c0;border-color:inherit;text-align:left;vertical-align:top}
+    .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+    .tg .tg-0lax{text-align:left;vertical-align:top}
+    </style>
+  <div class="container is-max-desktop">
+    <!-- Challenge Tasks -->
+    <div class="columns is-centered ">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Results</h2>
+        <div class="content has-text-justified">
+          <table class="tg" style="undefined;table-layout: fixed; width: 689px">
+            <colgroup>
+            <col style="width: 186.253731px">
+            <col style="width: 130.253731px">
+            <col style="width: 130.253731px">
+            <col style="width: 130.253731px">
+            <col style="width: 130.253731px">
+            </colgroup>
+            <thead>
+              <tr>
+                <th class="tg-llyw"><strong>Team</strong></th>
+                <th class="tg-llyw"><strong>Task 1 - Public</strong></th>
+                <th class="tg-llyw"><strong>Task 1 - Private</strong></th>
+                <th class="tg-llyw"><strong>Task 2 - Public</strong></th>
+                <th class="tg-llyw"><strong>Task 2 - Private</strong></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="llyw">Guangyang Wu et. al.</td>
+                <td class="llyw">88.80%</td>
+                <td class="llyw">72.27%</td>
+                <td class="llyw">-</td>
+                <td class="llyw">-</td>
+              </tr>
+              <tr>
+                <td class="llyw">Thanh-Son Nguyen</td>
+                <td class="llyw">87.60%</td>
+                <td class="llyw">78.60%</td>
+                <td class="llyw">-</td>
+                <td class="llyw">-</td>
+              </tr>
+              <tr>
+                <td class="llyw" >Vinh Lã Tuấn</td>
+                <td class="llyw">84.05%</td>
+                <td class="llyw">76.36%</td>
+                <td class="llyw">84.00%</td>
+                <td class="llyw">67.50%</td>
+              </tr>
+            </tbody>
+            </table>
+
+            <p>Out of all the submitted solutions, we were able to run three on our private test set. The results in the table above are <strong>not ranked yet</strong>. We will rank the results after reviews of 
+              the submitted papers become available to us.
+            </p>
         </div>
       </div>
     </div>
